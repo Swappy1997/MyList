@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         override fun afterTextChanged(s: Editable?) {
-            // Enable the login button only if both fields are non-empty
+
             binding.login.isEnabled =
                 binding.mobile.text.isNotEmpty() && binding.pass.text.isNotEmpty()
         }
